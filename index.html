@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOMPO Ibrahim - Développeur Géomaticien & Plugins QGIS</title>
+    <meta name="description" content="Développeur géomaticien : plugins QGIS publiés (5 000+ téléchargements), télédétection Google Earth Engine, machine learning géospatial, applications cartographiques full-stack.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230A1614'/%3E%3Cpath d='M18 68 L38 30 L56 54 L82 24' stroke='%23C7863B' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Panneau de couches : navigation principale -->
+    <header class="layers-rail">
+        <div class="rail-identity">
+            <div class="rail-mark" aria-hidden="true">LI</div>
+            <div class="name">LOMPO Ibrahim</div>
+            <div class="role">Développeur géomaticien</div>
+        </div>
+        <button class="rail-toggle" aria-label="Ouvrir le panneau de navigation" aria-expanded="false">
+            <span class="layer-check" aria-hidden="true"></span>
+        </button>
+        <p class="rail-panel-label">Couches</p>
+        <nav aria-label="Navigation principale">
+            <ul class="layers-list">
+                <li><button data-target="hero"><span class="layer-check" aria-hidden="true"></span>Accueil</button></li>
+                <li><button data-target="skills"><span class="layer-check" aria-hidden="true"></span>Compétences</button></li>
+                <li><button data-target="projects"><span class="layer-check" aria-hidden="true"></span>Projets</button></li>
+                <li><button data-target="contact"><span class="layer-check" aria-hidden="true"></span>Contact</button></li>
+            </ul>
+        </nav>
+        <p class="rail-geo">
+            <strong>12.3714° N, 1.5197° O</strong>
+            Ouagadougou, Burkina Faso
+        </p>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section id="hero" class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-text reveal">
+                    <p class="eyebrow">Géomatique · Télédétection · SIG</p>
+                    <h1>Je transforme l'imagerie satellite en outils <em>QGIS</em> utilisés par des milliers de géomaticiens.</h1>
+                    <p class="hero-mission">Développeur spécialisé en télédétection, traitement raster et machine learning géospatial. Auteur de 5 plugins publiés sur le dépôt officiel QGIS, et développeur full-stack pour des applications cartographiques temps réel.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-ghost">Me contacter</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <span class="stat-value">5 000+</span>
+                            <span class="stat-label">Téléchargements QGIS</span>
+                        </div>
+                        <div>
+                            <span class="stat-value">5</span>
+                            <span class="stat-label">Plugins publiés</span>
+                        </div>
+                        <div>
+                            <span class="stat-value">6</span>
+                            <span class="stat-label">Projets open-source</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-photo reveal">
+                    <div class="photo-frame">
+                        <span class="tick tl" aria-hidden="true"></span>
+                        <span class="tick tr" aria-hidden="true"></span>
+                        <span class="tick bl" aria-hidden="true"></span>
+                        <span class="tick br" aria-hidden="true"></span>
+                        <img src="assets/images/profile.webp" alt="Photographie de profil de LOMPO Ibrahim" width="320" height="320">
+                    </div>
+                    <p class="photo-caption">LOMPO IBRAHIM · GÉOMATICIEN</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Manifeste court -->
+        <section class="mission-strip reveal">
+            <blockquote>
+                La carte n'est pas la donnée. C'est la décision qu'elle rend possible : je conçois des outils qui raccourcissent la distance entre les deux.
+                <cite class="attribution">Philosophie de conception</cite>
+            </blockquote>
+        </section>
+
+        <!-- Compétences -->
+        <section id="skills">
+            <div class="section-head reveal">
+                <p class="eyebrow">Compétences</p>
+                <h2>Sept domaines, une seule discipline</h2>
+                <p>De l'extraction satellite au déploiement web, chaque compétence sert le même objectif : rendre la donnée géospatiale exploitable. Cliquez sur une couche pour la déplier.</p>
+            </div>
+
+            <div class="layers-panel">
+                <article class="layer-item open reveal">
+                    <button class="layer-trigger" aria-expanded="true">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Développement de plugins QGIS</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>PyQGIS, PyQt5/Qt6, Processing Framework</li>
+                        <li>Packaging et publication sur le dépôt officiel QGIS</li>
+                        <li>5 plugins développés et maintenus</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Télédétection & Imagerie satellite</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>Google Earth Engine API (Sentinel-2, Landsat, SRTM, MODIS)</li>
+                        <li>Indices spectraux (NDVI, EVI, SAVI, NDWI, MNDWI, NBR...)</li>
+                        <li>Filtrage nuageux, compositing médian</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Traitement raster & Analyse de terrain</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>GDAL/OGR, algèbre raster, mosaïquage, reprojection</li>
+                        <li>Analyse de terrain (pente, exposition, ombrage, TPI/TRI)</li>
+                        <li>Statistiques zonales, vectorisation raster→vecteur</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Machine Learning géospatial</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>Classification non supervisée (K-Means)</li>
+                        <li>Classification supervisée (Random Forest, scikit-learn)</li>
+                        <li>Évaluation : matrice de confusion, Kappa, précision globale</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Analyse 3D & LiDAR</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>Nuages de points LAS/LAZ (laspy), filtrage par classification</li>
+                        <li>Maillages 3D (OBJ/STL) depuis MNT, extrusion 2D→3D</li>
+                        <li>Scènes 3D QGIS, profils altimétriques</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Collecte de données terrain</h3>
+                        <span class="layer-count">02</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>Intégration KoboToolbox & ODK Central</li>
+                        <li>Automatisation de workflows vectoriels semi-automatiques</li>
+                    </ul></div></div>
+                </article>
+
+                <article class="layer-item reveal">
+                    <button class="layer-trigger" aria-expanded="false">
+                        <span class="layer-check" aria-hidden="true"></span>
+                        <h3>Développement Web & Géo-applications</h3>
+                        <span class="layer-count">03</span>
+                        <span class="layer-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="layer-body"><div class="layer-body-inner"><ul>
+                        <li>API REST (FastAPI), authentification JWT</li>
+                        <li>PostgreSQL/PostGIS, cartographie web (Leaflet.js)</li>
+                        <li>Déploiement cloud (Render, Supabase) & Git/GitHub</li>
+                    </ul></div></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section id="projects">
+            <div class="section-head reveal">
+                <p class="eyebrow">Projets</p>
+                <h2>Publiés, utilisés, mesurables</h2>
+                <p>Chaque projet ci-dessous est en ligne : code source ouvert, et pour trois d'entre eux, publication officielle sur le dépôt QGIS.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <p class="project-meta">Plugin QGIS · 5 185+ téléchargements</p>
+                    <h3>Google Earth Engine Extractor</h3>
+                    <p>Extraction de jeux de données Google Earth Engine (Sentinel-2 SR, Landsat 8/9 SR, SRTM DEM, MODIS NDVI, Global Forest Change) selon l'emprise d'une couche vectorielle, avec filtrage nuageux et compositing médian automatiques.</p>
+                    <div class="project-links">
+                        <a href="https://plugins.qgis.org/plugins/GoogleEarthEngineExtractor/" class="project-link" target="_blank" rel="noopener" aria-label="Voir Google Earth Engine Extractor sur le dépôt officiel QGIS">Page QGIS officielle</a>
+                        <a href="https://github.com/ibrahimlompo33-coder/google-earth-engine-extrator" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source de Google Earth Engine Extractor sur GitHub">Code source</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <p class="project-meta">Plugin QGIS · Publié officiel</p>
+                    <h3>GeoRaster Tools</h3>
+                    <p>Boîte à outils raster : vectorisation, 10 indices spectraux avec préréglages capteurs (Sentinel-2, Landsat, SPOT), analyse de terrain, statistiques zonales, calculatrice raster, classification K-Means / Random Forest avec matrice de confusion.</p>
+                    <div class="project-links">
+                        <a href="https://plugins.qgis.org/plugins/GeoRaster_Tools/" class="project-link" target="_blank" rel="noopener" aria-label="Voir GeoRaster Tools sur le dépôt officiel QGIS">Page QGIS officielle</a>
+                        <a href="https://github.com/ibrahimlompo33-coder/GeoRaster-Tools" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source de GeoRaster Tools sur GitHub">Code source</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <p class="project-meta">Plugin QGIS · Publié officiel</p>
+                    <h3>GeoRaster3D</h3>
+                    <p>Suite d'outils 3D : export de MNT en maillage OBJ/STL, extrusion de bâtiments 2D→3D, profils altimétriques le long d'une ligne, chargement et filtrage de nuages de points LAS/LAZ, scènes 3D natives QGIS.</p>
+                    <div class="project-links">
+                        <a href="https://plugins.qgis.org/plugins/GeoRaster3D/" class="project-link" target="_blank" rel="noopener" aria-label="Voir GeoRaster3D sur le dépôt officiel QGIS">Page QGIS officielle</a>
+                        <a href="https://github.com/ibrahimlompo33-coder/GeoRaster3D" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source de GeoRaster3D sur GitHub">Code source</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <p class="project-meta">Plugin QGIS · GitHub</p>
+                    <h3>FieldBridge QGIS</h3>
+                    <p>Import de données de collecte terrain depuis KoboToolbox et ODK Central, pour intégrer directement les enquêtes de terrain géoréférencées dans un projet SIG.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/ibrahimlompo33-coder/fieldbridge-qgis" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source de FieldBridge QGIS sur GitHub">Code source</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <p class="project-meta">Plugin QGIS · GitHub</p>
+                    <h3>VecCore QGIS</h3>
+                    <p>Automatisation semi-automatique de workflows de traitement vectoriel, pensé pour enchaîner des opérations de géotraitement répétitives.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/ibrahimlompo33-coder/veccore-qgis" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source de VecCore QGIS sur GitHub">Code source</a>
+                    </div>
+                </article>
+
+                <article class="project-card web reveal">
+                    <p class="project-meta">SaaS · FastAPI + PostGIS</p>
+                    <h3>Trajet Livreur</h3>
+                    <p>Plateforme full-stack de suivi géospatial en temps réel : cartographie interactive (Leaflet), API FastAPI sécurisée par JWT, base PostgreSQL/PostGIS. Démo live déployée (Render + Supabase).</p>
+                    <div class="project-links">
+                        <a href="https://ibrahimlompo33-coder.github.io/Trajet-Livreur/" class="project-link" target="_blank" rel="noopener" aria-label="Voir la démo live du projet Trajet Livreur">Voir la démo</a>
+                        <a href="https://github.com/ibrahimlompo33-coder/trajet-livreur" class="project-link" target="_blank" rel="noopener" aria-label="Voir le code source du projet Trajet Livreur sur GitHub">Code source</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="section-head reveal">
+                <p class="eyebrow">Contact</p>
+                <h2>Un projet géospatial en tête ?</h2>
+                <p>Plugin QGIS sur mesure, pipeline de télédétection ou application cartographique : décrivez votre besoin, je réponds sous 48h.</p>
+            </div>
+
+            <div id="form-feedback" class="feedback-message hidden" role="alert" aria-live="assertive"></div>
+
+            <form id="contact-form" class="reveal" action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST" novalidate>
+                <div class="form-group">
+                    <label for="user-name">Nom complet *</label>
+                    <input type="text" id="user-name" name="name" required placeholder="Ex : Jean Dupont">
+                </div>
+                <div class="form-group">
+                    <label for="user-email">Adresse e-mail *</label>
+                    <input type="email" id="user-email" name="email" required placeholder="Ex : jean.dupont@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="user-message">Votre message *</label>
+                    <textarea id="user-message" name="message" rows="5" required placeholder="Décrivez votre projet..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer le message</button>
+            </form>
+
+            <p class="contact-alt">Vous préférez GitHub ? <a href="https://github.com/ibrahimlompo33-coder" target="_blank" rel="noopener">github.com/ibrahimlompo33-coder</a></p>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 LOMPO Ibrahim, Ouagadougou, Burkina Faso</p>
+        <div class="footer-links">
+            <a href="https://github.com/ibrahimlompo33-coder" target="_blank" rel="noopener">GitHub</a>
+            <a href="#hero">Haut de page</a>
+        </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
