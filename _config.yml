@@ -1,0 +1,22 @@
+theme: jekyll-theme-primer
+title: Ibrahim Lompo Portfolio
+description: Welcome to my portfolio website
+show_downloads: false
+
+# Build settings
+source: .
+destination: _site
+markdown: kramdown
+sass:
+  sass_dir: css
+
+# Exclude files from Jekyll processing
+exclude:
+  - .github
+  - .gitignore
+  - README.md
+  - node_modules
+  - vendor
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
